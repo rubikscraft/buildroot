@@ -15,6 +15,11 @@ MUTT_CONF_OPTS = --disable-doc --disable-smtp
 # 0001-Ensure-IMAP-connection-is-closed-after-a-connection-error.patch
 MUTT_IGNORE_CVES += CVE-2020-28896
 
+# 0002-CVE-2021-3181-1.patch
+# 0003-CVE-2021-3181-2.patch
+# 0004-CVE-2021-3181-3.patch
+MUTT_IGNORE_CVES += CVE-2021-3181
+
 ifeq ($(BR2_PACKAGE_LIBICONV),y)
 MUTT_DEPENDENCIES += libiconv
 MUTT_CONF_OPTS += --enable-iconv
@@ -29,6 +34,15 @@ MUTT_DEPENDENCIES += libidn
 MUTT_CONF_OPTS += --with-idn --without-idn2
 else
 MUTT_CONF_OPTS += --without-idn --without-idn2
+endif
+
+ifeq ($(BR2_PACKAGE_LIBGPGME),y)
+MUTT_DEPENDENCIES += libgpgme
+MUTT_CONF_OPTS += \
+	--enable-gpgme \
+	--with-gpgme-prefix=$(STAGING_DIR)/usr
+else
+MUTT_CONF_OPTS += --disable-gpgme
 endif
 
 ifeq ($(BR2_PACKAGE_MUTT_IMAP),y)

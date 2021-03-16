@@ -70,6 +70,7 @@ F:	package/odhcp6c/
 N:	Alexander Dahl <post@lespocky.de>
 F:	package/fastd/
 F:	package/libuecc/
+F:	package/siproxd/
 F:	package/putty/
 
 N:	Alexander Egorenkov <egorenar-dev@posteo.net>
@@ -509,9 +510,6 @@ N:	Christian Kellermann <christian.kellermann@solectrix.de>
 F:	package/python-pylibftdi/
 
 N:	Christian Stewart <christian@paral.in>
-F:	linux/linux-ext-aufs.mk
-F:	package/aufs/
-F:	package/aufs-util/
 F:	package/batman-adv/
 F:	package/delve/
 F:	package/docker-cli/
@@ -2107,6 +2105,7 @@ F:	package/libuev/
 F:	package/log4cplus/
 F:	package/postgresql/
 F:	package/python-colorzero/
+F:	package/python-flask-wtf/
 F:	package/python-gpiozero/
 F:	package/qt5/
 F:	package/quotatool/
@@ -2313,6 +2312,8 @@ N:	Ryan Barnett <ryan.barnett@rockwellcollins.com>
 F:	package/atftp/
 F:	package/c-periphery/
 F:	package/miraclecast/
+F:	package/opkg/
+F:	package/opkg-utils/
 F:	package/python-pysnmp/
 F:	package/python-pysnmp-mibs/
 F:	package/python-tornado/

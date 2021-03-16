@@ -49,7 +49,6 @@ if ! grep -qE '^dtoverlay=dwc' "${BINARIES_DIR}/rpi-firmware/config.txt"; then
 	echo "Adding 'dtoverlay=dwc' to config.txt"
 	cat << __EOF__ >> "${BINARIES_DIR}/rpi-firmware/config.txt"
 
-# fixes rpi (3B, 3B+, 3A+, 4B and Zero W) ttyAMA0 serial console
 dtoverlay=dwc2
 __EOF__
 fi

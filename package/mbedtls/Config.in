@@ -1,5 +1,6 @@
 config BR2_PACKAGE_MBEDTLS
 	bool "mbedtls"
+	select BR2_PACKAGE_CLIPGRAB
 	help
 	  mbed TLS (formerly known as PolarSSL) makes it trivially easy
 	  for developers to include cryptographic and SSL/TLS

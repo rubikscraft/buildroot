@@ -262,6 +262,7 @@ F:	package/python-canopen/
 N:	Bartosz Bilas <b.bilas@grinn-global.com>
 F:	board/stmicroelectronics/stm32mp157a-dk1/
 F:	configs/stm32mp157a_dk1_defconfig
+F:	package/log4qt/
 F:	package/python-esptool/
 F:	package/python-pyaes/
 F:	package/ttyd/
@@ -1945,7 +1946,7 @@ F:	package/php-xdebug/
 N:	Nicolas Cavallari <nicolas.cavallari@green-communications.fr>
 F:	package/libgit2/
 
-N:	Nicolas Serafini <nicolas.serafini@sensefly.com>
+N:	Nicolas Serafini <nicolas.serafini@ik.me>
 F:	package/exiv2/
 F:	package/ofono/
 
@@ -2126,6 +2127,7 @@ N:	Petr Vorel <petr.vorel@gmail.com>
 F:	package/ima-evm-utils/
 F:	package/iproute2/
 F:	package/iputils/
+F:	package/libqrtr-glib/
 F:	package/libtirpc/
 F:	package/linux-backports/
 F:	package/ltp-testsuite/
@@ -2456,7 +2458,9 @@ F:	package/mtdev/
 
 N:	Stephane Viau <stephane.viau@oss.nxp.com>
 F:	board/freescale/imx8mnevk/
+F:	board/freescale/imx8mpevk/
 F:	configs/freescale_imx8mnevk_defconfig
+F:	configs/freescale_imx8mpevk_defconfig
 
 N:	Steve Calfee <stevecalfee@gmail.com>
 F:	package/python-pymysql/

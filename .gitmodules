@@ -1,0 +1,3 @@
+[submodule "blocksim"]
+	path = blocksim
+	url = https://wearetriple@dev.azure.com/wearetriple/Team%20Innovation/_git/clip-grabber-rpi-stick

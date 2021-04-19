@@ -873,7 +873,10 @@ endif
 	source "package/python3/Config.in"
 if BR2_PACKAGE_PYTHON || BR2_PACKAGE_PYTHON3
 menu "External python modules"
-	source "package/python3-netswitch/Config.in"
+	source "package/python-netswitch/Config.in"
+	source "package/python-access-points/Config.in"
+	source "package/python-pyserial/Config.in"
+	source "package/python-ifcfg/Config.in"
 	source "package/python-aenum/Config.in"
 	source "package/python-aioblescan/Config.in"
 	source "package/python-aiocoap/Config.in"

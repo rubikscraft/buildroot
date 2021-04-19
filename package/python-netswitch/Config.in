@@ -1,0 +1,11 @@
+config BR2_PACKAGE_PYTHON_NETSWITCH
+	bool "python-netswitch"
+	select BR2_PACKAGE_PYTHON_ACCESS_POINTS # runtime
+	select BR2_PACKAGE_PYTHON_FIRE # runtime
+	select BR2_PACKAGE_PYTHON_IFCFG # runtime
+	select BR2_PACKAGE_PYTHON_PYSERIAL # runtime
+	select BR2_PACKAGE_PYTHON_PYYAML # runtime
+	help
+	  wifi switching.
+
+	  https://github.com/beasteers/netswitch

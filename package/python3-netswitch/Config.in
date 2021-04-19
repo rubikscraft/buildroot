@@ -1,5 +1,0 @@
-config BR2_PACKAGE_PYTHON3_NETSWITCH
-	bool "python-netswitch"
-	depends on BR2_PACKAGE_PYTHON3
-	help
-	  Python netswitch

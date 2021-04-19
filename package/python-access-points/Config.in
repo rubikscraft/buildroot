@@ -1,0 +1,7 @@
+config BR2_PACKAGE_PYTHON_ACCESS_POINTS
+	bool "python-access-points"
+	help
+	  Scan your WiFi and get access point information and signal
+	  quality.
+
+	  https://github.com/kootenpv/access_points

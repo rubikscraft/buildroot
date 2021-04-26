@@ -79,9 +79,9 @@ capability of U-Boot. To achieve this:
 WiFi
 ====
 
- # wpa_passphrase ACCESSPOINTNAME >> /etc/wpa_supplicant.conf
+ # wpa_passphrase ACCESSPOINTNAME >> /etc/wpa_supplicant/wpa_supplicant.conf
    (type password and enter)
- # wpa_supplicant -i wlan0 -c /etc/wpa_supplicant.conf -B
+ # wpa_supplicant -i wlan0 -c /etc/wpa_supplicant/wpa_supplicant.conf -B
  # udhcpc -i wlan0
  # ping google.com
 

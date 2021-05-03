@@ -43,9 +43,9 @@ Ethernet
 Wifi
 ==========
 
-  # wpa_passphrase YOUR_SSID >> /etc/wpa_supplicant.conf
+  # wpa_passphrase YOUR_SSID >> /etc/wpa_supplicant/wpa_supplicant.conf
   (enter the wifi password and press enter)
-  # wpa_supplicant -i wlan0 -c /etc/wpa_supplicant.conf -B
+  # wpa_supplicant -i wlan0 -c /etc/wpa_supplicant/wpa_supplicant.conf -B
   # udhcpc -i wlan0
 
 Note:

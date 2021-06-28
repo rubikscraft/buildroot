@@ -35,6 +35,7 @@ F:	package/bubblewrap/
 F:	package/cage/
 F:	package/cog/
 F:	package/libepoxy/
+F:	package/libpsl/
 F:	package/libwpe/
 F:	package/webkitgtk/
 F:	package/wlroots/
@@ -181,6 +182,9 @@ F:	package/sshguard/
 F:	package/sunwait/
 F:	package/sysdig/
 
+N:	Andy Shevchenko <andy.shevchenko@gmail.com>
+F:	package/fb-test-app/
+
 N:	Anisse Astier <anisse@astier.eu>
 F:	package/go/
 F:	package/nghttp2/
@@ -263,6 +267,7 @@ F:	package/python-canopen/
 N:	Bartosz Bilas <b.bilas@grinn-global.com>
 F:	board/stmicroelectronics/stm32mp157a-dk1/
 F:	configs/stm32mp157a_dk1_defconfig
+F:	package/cegui/
 F:	package/log4qt/
 F:	package/python-esptool/
 F:	package/python-pyaes/
@@ -460,6 +465,7 @@ F:	package/waylandpp/
 F:	package/x11r7/
 F:	package/x264/
 F:	package/x265/
+F:	package/xmrig/
 F:	package/ytree/
 F:	package/znc/
 F:	support/testing/tests/package/test_perl_html_parser.py
@@ -670,8 +676,15 @@ N:	Derrick Lyndon Pallas <derrick@meter.com>
 F:	package/ipcalc/
 
 N:	Dick Olsson <hi@senzilla.io>
+F:	board/aarch64-efi/
+F:	board/pc/
+F:	board/qemu/aarch64-sbsa/
+F:	boot/arm-trusted-firmware/
+F:	boot/edk2/
+F:	configs/qemu_aarch64_sbsa_defconfig
 F:	package/bearssl/
 F:	package/bitcoin/
+F:	package/edk2-platforms/
 F:	package/execline/
 F:	package/mdevd/
 F:	package/s6-dns/
@@ -682,6 +695,7 @@ F:	package/s6-portable-utils/
 F:	package/s6-rc/
 F:	package/s6/
 F:	package/skalibs/
+F:	support/testing/tests/boot/test_edk2.py
 
 N:	Dimitrios Siganos <dimitris@siganos.org>
 F:	package/wireless-regdb/
@@ -831,6 +845,7 @@ F:	package/belle-sip/
 F:	package/belr/
 F:	package/boinc/
 F:	package/cairo/
+F:	package/daq3/
 F:	package/duktape/
 F:	package/expat/
 F:	package/flatbuffers/
@@ -897,6 +912,7 @@ F:	package/python-yatl/
 F:	package/rocksdb/
 F:	package/rygel/
 F:	package/safeclib/
+F:	package/snort3/
 F:	package/suricata/
 F:	package/tinycbor/
 F:	package/tinydtls/
@@ -1039,6 +1055,7 @@ F:	package/minicom/
 F:	package/nfs-utils/
 F:	package/sunxi-mali-mainline/
 F:	package/sunxi-mali-mainline-driver/
+F:	package/udisks/
 
 N:	Gregory Dymarek <gregd72002@gmail.com>
 F:	package/ding-libs/
@@ -1486,6 +1503,8 @@ F:	package/dtach/
 N:	Kamel Bouhara <kamel.bouhara@gmail.com>
 F:	package/libodb-boost/
 F:	package/libodb-mysql/
+F:	package/libqb/
+F:	package/usbguard/
 
 N:	Karoly Kasza <kaszak@gmail.com>
 F:	package/irqbalance/
@@ -1637,6 +1656,7 @@ F:	package/murata-cyw-fw/
 F:	package/netdata/
 F:	package/python-ansicolors/
 F:	package/python-bleak/
+F:	package/python-dbus-next/
 F:	package/python-iniconfig/
 F:	package/python-intelhex/
 F:	package/python-packaging/
@@ -1647,9 +1667,11 @@ F:	package/python-typing-extensions/
 F:	package/python-xmodem/
 F:	package/rs485conf/
 F:	package/turbolua/
+F:	support/testing/tests/package/sample_python_dbus_next.py
 F:	support/testing/tests/package/sample_python_pytest.py
 F:	support/testing/tests/package/sample_python_pytest_asyncio.py
 F:	support/testing/tests/package/test_netdata.py
+F:	support/testing/tests/package/test_python_dbus_next.py
 F:	support/testing/tests/package/test_python_pytest.py
 F:	support/testing/tests/package/test_python_pytest_asyncio.py
 
@@ -1963,7 +1985,13 @@ F:	board/intel/galileo/
 F:	configs/galileo_defconfig
 
 N:	Nicolas Carrier <nicolas.carrier@orolia.com>
+F:	package/bmap-tools/
 F:	package/php-xdebug/
+F:	package/python-augeas/
+F:	support/testing/tests/package/sample_bmap_tools.sh
+F:	support/testing/tests/package/sample_python_augeas.py
+F:	support/testing/tests/package/test_bmap_tools.py
+F:	support/testing/tests/package/test_python_augeas.py
 
 N:	Nicolas Cavallari <nicolas.cavallari@green-communications.fr>
 F:	package/libgit2/
@@ -2233,9 +2261,11 @@ F:	package/bitwise/
 
 N:	Raphaël Mélotte <raphael.melotte@essensium.com>
 F:	package/jbig2dec/
+F:	package/mupdf/
 F:	package/python-boto3/
 F:	package/python-botocore/
 F:	package/python-jmespath/
+F:	package/python-pymupdf/
 F:	package/python-s3transfer/
 
 N:	Refik Tuzakli <tuzakli.refik@gmail.com>
@@ -2299,6 +2329,7 @@ F:	package/glibc/
 F:	package/irrlicht/
 F:	package/liblinear/
 F:	package/lensfun/
+F:	package/libbpf/
 F:	package/libclc/
 F:	package/libgta/
 F:	package/libiec61850/
@@ -2610,6 +2641,7 @@ F:	configs/stm32mp157c_dk2_defconfig
 F:	package/android-tools/
 F:	package/b43-firmware/
 F:	package/b43-fwcutter/
+F:	package/bmap-tools/
 F:	package/c-periphery/
 F:	package/cdrkit/
 F:	package/cifs-utils/
@@ -2647,6 +2679,7 @@ F:	package/pkg-autotools.mk
 F:	package/pkg-generic.mk
 F:	package/python/
 F:	package/python3/
+F:	package/python-augeas/
 F:	package/python-mad/
 F:	package/python-serial/
 F:	package/qextserialport/
@@ -2660,6 +2693,8 @@ F:	package/squashfs/
 F:	package/wayland/
 F:	package/weston/
 F:	support/testing/tests/boot/test_syslinux.py
+F:	support/testing/tests/package/sample_python_augeas.py
+F:	support/testing/tests/package/test_python_augeas.py
 F:	toolchain/
 
 N:	Timo Ketola <timo.ketola@exertus.fi>
@@ -2706,6 +2741,7 @@ F:	package/utp_com/
 N:	Vincent Stehlé <vincent.stehle@laposte.net>
 F:	board/bananapi/bananapi-m2-zero/
 F:	configs/bananapi_m2_zero_defconfig
+F:	configs/uevm5432_defconfig
 F:	package/i7z/
 F:	package/msr-tools/
 F:	package/pixz/
